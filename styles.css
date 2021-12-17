@@ -1,0 +1,40 @@
+/* Style Reset */
+
+*  {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'fontprincial';
+    src: url(/fonts/Lato-Regular.ttf);
+}
+
+
+body {
+    background-color: #151E22 ;
+    font-family: 'fontprincial';
+    color: white;
+}
+
+
+.header {
+    margin: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: ;
+   /*  grid-auto-columns: 1rem 1rem; */
+    /* grid-template-columns: repeat(auto-fill, minmax(15rem)); */
+}
+
+.header__imglogo {
+    width: 14.47vw;
+    height: 6vh;
+}
+
+
+
