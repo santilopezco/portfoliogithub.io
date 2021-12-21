@@ -19,12 +19,16 @@ body {
     font-family: 'fontprincial';
     font-size: 18px;
     color: white;
-    height: 100vh;
-    overflow: hidden;
+    max-width: 112.5rem;
 }
 
 #header div {
     background: #000000;
+}
+
+#imglogo {
+    width: 12.1875rem;
+    
 }
 
 
@@ -32,10 +36,64 @@ body {
     background: #0BC8AB;
 }
 
+h1 {
+    font-size: 2.5em;
+    font-style: Bold; 
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.18em;
+}
+
+
+#imagelaptop {
+    width: 50.5rem;
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Animation */
 
-.loader {
+/* .loader {
     background: #151E22;
     width: 100%;
     height: 100%;
@@ -105,4 +163,4 @@ body {
 header {
     position: absolute;
     z-index: 1;
-}
+} */
