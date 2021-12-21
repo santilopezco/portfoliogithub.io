@@ -19,22 +19,13 @@ body {
     font-family: 'fontprincial';
     font-size: 18px;
     color: white;
-    max-width: 112.5rem;
+    max-width: 112.5rem;    
 }
 
-#header div {
-    background: #000000;
+a {
+    font-size: 18px;
 }
 
-#imglogo {
-    width: 12.1875rem;
-    
-}
-
-
-.btn {
-    background: #0BC8AB;
-}
 
 h1 {
     font-size: 2.5em;
@@ -48,6 +39,23 @@ h2 {
 p {
     font-size: 1.18em;
 }
+
+/* header */
+
+#header div {
+    background: #000000;
+}
+
+#imglogo {
+    width: 12.1875rem;    
+}
+
+.btn {
+    background: #0BC8AB;
+}
+
+
+/* Main */
 
 
 #imagelaptop {
@@ -65,15 +73,29 @@ p {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+    #laptopmovile {
+        display: none;
+    }
  }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+    body {
+        font-size: 22px;
+    }
+    #laptopmovile {
+        display: none;
+    }
+ }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    
+    body {
+        font-size: 25px;
+    }
+    #laptopmovile {
+        display: none;
+    }
  }
 
 
